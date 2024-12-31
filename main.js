@@ -1,17 +1,9 @@
 import { fox } from 'fetchfox';
 
-const key = process.env.OPENROUTER_API_KEY;
-
 const wf = await fox
   .config({
     // diskCache: 'ff-cache',
-    ai: [
-      'openai:gpt-4o-mini',
-      {
-        apiKey: key,
-        baseURL: 'https://openrouter.ai/api/v1',
-      }
-    ]
+    ai: 'openrouter:anthropic/claude-3.5-sonnet',
   })
   .init(
     'https://pokemondb.net/pokedex/national',

@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fetchfox": "github:fetchfox/fetchfox#11600c6d811882c239a1409860fcd8bff196b7c8"
+    "fetchfox": "github:fetchfox/fetchfox#b97d4c17e37cb48abe23076f42fee0a9d6feba98"
   }
 }
